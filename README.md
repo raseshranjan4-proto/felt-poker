@@ -28,7 +28,9 @@ Set `GAME_PORT` to change the server port (not `PORT`, which dev tools often set
 
 ## Hosting on Render
 
-`render.yaml` describes a free Node web service. In Render choose New → Blueprint, pick this repository, and apply. It builds with `npm run build`, starts with `npm start`, and redeploys on every push to `main`.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/raseshranjan4-proto/felt-poker)
+
+`render.yaml` describes a free Node web service. Use the button above, or in Render choose New → Blueprint, pick this repository, and apply. It builds with `npm run build`, starts with `npm start`, and redeploys on every push to `main`.
 
 Free-tier notes: the service sleeps after 15 minutes without traffic (the first visit then takes about 30 to 50 seconds), and the disk is not persistent, so guest balances reset when the service restarts.
 
